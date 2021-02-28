@@ -1,0 +1,6 @@
+select s.country_fips_code, c.country_name
+from 'bigquerry-public-data.covid19_public_forecast.country_14d_historical' s
+join 'bigquerry-public-data.covid19_public_forecast.country_14d_historical' c
+ON s.country_fips_code = c.county_fips_code
+order by county_fips_code
+LIMIT 1000
