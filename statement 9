@@ -1,0 +1,4 @@
+select country_name, sum(deaths) as total_deaths
+from 'bigquerry-public-data.covid19_govt_response.oxford_policy_tracker'
+where country_name is not null
+group by country_name order by total_deaths DESC
