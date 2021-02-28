@@ -1,0 +1,2 @@
+selectSUM(new_confirmed) AS total_confirmed from 
+'bigquerry-public-data.covid19_public_forecast.country_14d_historical' limit 100
