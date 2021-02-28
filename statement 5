@@ -1,0 +1,2 @@
+select * from 'bigquery-public-data.covid19_open_data.covid19_open_data'
+where date = '2020-03-30' AND cumalative_confirmed > 1000
