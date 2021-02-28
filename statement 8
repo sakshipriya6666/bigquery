@@ -1,0 +1,3 @@
+Select country from 'bigquerry-public-data.covid19_weathersource_com.country_day_forecast'
+limit 100
+--where forecast_date="%2021-03-11"
